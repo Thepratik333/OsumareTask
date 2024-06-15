@@ -4,7 +4,7 @@ import svg from "../../assets/customerservice2fill1.svg";
 
 function Header() {
   return (
-    <nav className="flex justify-between px-10">
+    <nav className="flex fixed w-full backdrop-filter backdrop-blur-md justify-between px-10">
       <img src={OsumareLogo} alt="" />
 
       <div className="p-3 flex justify-center items-center">
